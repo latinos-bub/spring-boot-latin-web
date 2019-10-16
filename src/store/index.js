@@ -1,5 +1,5 @@
 // created by util.you.com@gmail.com
-    
+
 
 import Vue from 'vue';
 import Vuex from 'vuex';
@@ -12,14 +12,14 @@ import getters from './getter';
 Vue.use(Vuex);
 
 const store = new Vuex.Store(
-  {
-    modules: {
-      app,
-      user,
-      permission
-    },
-    getters
-  }
+    {
+        modules: {
+            app,
+            user,
+            permission
+        },
+        getters
+    }
 );
 
 

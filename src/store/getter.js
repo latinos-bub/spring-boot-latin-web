@@ -2,25 +2,25 @@
 
 
 const getters = {
-  sidebar: state => state.app.sidebar,
+    sidebar: state => state.app.sidebar,
 
-  visitedViews: state => state.app.visitedViews,
+    visitedViews: state => state.app.visitedViews,
 
-  nickname: state => state.user.nickname,
+    nickname: state => state.user.nickname,
 
-  userId: state => state.user.userId,
+    userId: state => state.user.userId,
 
-  avatar: state => state.user.avatar,
+    avatar: state => state.user.avatar,
 
-  role: state => state.user.role,
+    role: state => state.user.role,
 
-  menus: state => state.user.menus,
+    menus: state => state.user.menus,
 
-  permissions: state => state.user.permissions,
+    permissions: state => state.user.permissions,
 
-  permission_routers: state => state.permission.routers,
+    permission_routers: state => state.permission.routers,
 
-  addRouters: state => state.permission.addRouters
+    addRouters: state => state.permission.addRouters
 };
 
 export default getters
